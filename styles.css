@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Roboto:wght@300&display=swap');
+
+h1
+{
+  font-family: 'Orelega One', cursive;
+  color: #f25287;
+  font-size: 70px;
+  margin:0;
+  display: inline-block;
+  padding-top: 20px;
+
+}
+
+h2,h3{
+  font-family: 'Roboto', sans-serif;
+  color: #0061a8;
+}
+
+.image{
+  display: inline-block;
+  position:absolute;
+  top:25px;
+  padding-left: 20px;
+}
+body{
+  margin:0;
+}
+.container{
+  box-sizing: border-box;
+  background-color: #edffa9;
+  text-align:center;
+  height:100vh;
+  border:5px solid;
+}
+
+.btn{
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  text-align: center;
+  font-size:40px;
+  margin:1px 1px 1px 1px;
+}
+
+.play{
+  font-weight:bolder;
+}
+
+.button{
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bolder;
+  background-color:#0061a8;
+}
+
+.Pressed{
+  font-size: 50px;
+  margin:0;
+}
+
+.winner{
+  color:#f05945;
+}

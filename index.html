@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>TIC TAC TOE</h1><img class="image"src="images/png/001-tic-tac-toe.png"></img>
+      <h2>Tap on the box to start the game!!!</h2>
+      <h3>Player 1 will be X</h3>
+      <h3>Player 2 will be 0</h3>
+      <div class="row">
+      <input type="text" id="a1" class="btn" onclick="a1fun(); alltest();" readonly>
+      <input type="text" id="a2" class="btn" onclick="a2fun(); alltest();" readonly>
+      <input type="text" id="a3" class="btn" onclick="a3fun(); alltest();" readonly>
+      </div>
+      <div class="row">
+        <input type="text" id="a4" class="btn" onclick="a4fun(); alltest();" readonly>
+        <input type="text" id="a5" class="btn" onclick="a5fun(); alltest();" readonly>
+        <input type="text" id="a6" class="btn" onclick="a6fun(); alltest();" readonly>
+      </div>
+      <div class="row">
+        <input type="text" id="a7" class="btn" onclick="a7fun(); alltest();" readonly>
+        <input type="text" id="a8" class="btn" onclick="a8fun(); alltest();" readonly>
+        <input type="text" id="a9" class="btn" onclick="a9fun(); alltest();" readonly>
+    </div>
+    <button class="button" onclick="reset()" >Reset</button>
+    <h2 class="play">Turn of Player 1🧍‍♂️</h2>
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
