@@ -19,3 +19,8 @@
 * HTML
 * CSS
 * JavaScript
+
+### Screenshots
+<img src="images/png/tic_1.png" alt="Logo">
+<img src="images/png/tic_2.png" alt="Logo">
+
